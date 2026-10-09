@@ -81,7 +81,8 @@ $stmt = $conn->prepare($sql);
 <td> <?php echo $linha['faixa'] ?> </td>
 <td> <?php echo $linha['preco'] ?> </td>
 <td> <?php echo $linha['estoque'] ?> </td>
-<td> <a href='editar.php?id=<?php echo $linha['id'] ?>"'> Editar </a> </td>
+<td> <a href='editar.php?id=<?php echo $linha['id'] ?>'> Editar </a> | |
+<a href='excluir.php?id=<?php echo $linha['id'] ?>'> Excluir </a> </td>
 </tr>
 <?php } ?>
 </table>
