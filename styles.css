@@ -1,0 +1,11 @@
+.formulario{
+    border: 2px solid;
+    border-color: black;
+    padding: 8px;
+    width: 320px;
+}
+.tabela{
+    border: 2px solid;
+    border-color: black;
+    padding: 8px;
+}
